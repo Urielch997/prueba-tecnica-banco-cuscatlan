@@ -22,6 +22,14 @@ public class Rating {
         this.count = count;
     }
 
+    public Rating(Long count, BigDecimal rate) {
+        this.count = count;
+        this.rate = rate;
+    }
+
+    public Rating() {
+    }
+
     private Rating(RatingBuilder builder){
         this.rate = builder.rate;
         this.count = builder.count;

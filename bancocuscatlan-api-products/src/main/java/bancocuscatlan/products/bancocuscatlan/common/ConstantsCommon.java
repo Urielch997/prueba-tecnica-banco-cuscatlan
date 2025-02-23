@@ -1,8 +1,8 @@
-package bancocuscatlan.products.bancocuscatlan.domain;
+package bancocuscatlan.products.bancocuscatlan.common;
 
-public class Contants {
-    public static final String MESSAGE_OK = "Operacion realizada con exito";
+public class ConstantsCommon {
+    public static final String MESSAGE_OK = "Success";
     public static final String STATUS_OK = "00";
-    public static final String MESSAGE_ERROR = "Fallo al realizar la operacion";
+    public static final String MESSAGE_ERROR = "Error";
     public static final String STATUS_ERROR = "99";
 }

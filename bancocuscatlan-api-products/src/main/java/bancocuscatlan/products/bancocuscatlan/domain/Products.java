@@ -67,7 +67,20 @@ public class Products {
         this.rating = rating;
     }
 
-   private Products(ProductsBuilder builder){
+    public Products(String title, Long id, BigDecimal price, String description, String category, String image, Rating rating) {
+        this.title = title;
+        this.id = id;
+        this.price = price;
+        this.description = description;
+        this.category = category;
+        this.image = image;
+        this.rating = rating;
+    }
+
+    public Products() {
+    }
+
+    private Products(ProductsBuilder builder){
         this.id = builder.id;
         this.title = builder.title;
         this.price = builder.price;

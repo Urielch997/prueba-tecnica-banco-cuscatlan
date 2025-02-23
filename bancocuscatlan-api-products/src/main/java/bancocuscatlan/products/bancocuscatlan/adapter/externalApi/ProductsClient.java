@@ -1,4 +1,4 @@
-package bancocuscatlan.products.bancocuscatlan.application.productsFeign;
+package bancocuscatlan.products.bancocuscatlan.adapter.externalApi;
 
 import bancocuscatlan.products.bancocuscatlan.domain.Products;
 import org.springframework.cloud.openfeign.FeignClient;
