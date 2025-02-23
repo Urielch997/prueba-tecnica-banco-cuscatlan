@@ -11,12 +11,12 @@ import org.springframework.web.method.annotation.MethodArgumentTypeMismatchExcep
 
 @RestControllerAdvice
 public class ControllerAdviceHandler {
-    
+
     @ExceptionHandler(MethodArgumentTypeMismatchException.class)
     public ResponseEntity<ResponseDTO> handlerMethodArgumentTypeException(MethodArgumentTypeMismatchException ex, WebRequest request){
         String parameterName = ex.getName();
         String invalidValue = ex.getValue().toString();
-        String errorMessage = String.format("The value '%s' is invalid for param '%s'",parameterName,invalidValue);
+        String errorMessage = String.format("The value '%s' is invalid for param '%s'",invalidValue,parameterName);
         ResponseDTO responseDTO = ResponseDTO.builder()
                 .message(errorMessage)
                 .status(ConstantsCommon.STATUS_ERROR)
