@@ -1,0 +1,227 @@
+2025-02-23T14:35:31.430-06:00  INFO 20316 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : Starting BancocuscatlanProductsApplication using Java 21.0.5 with PID 20316 (C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products\target\classes started by ADMIN in C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products)
+2025-02-23T14:35:31.471-06:00  INFO 20316 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-23T14:35:34.118-06:00  INFO 20316 --- [bancocuscatlan] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d1fb84d1-b82f-31a6-ba0c-393563ccea86
+2025-02-23T14:35:34.768-06:00  INFO 20316 --- [bancocuscatlan] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-23T14:35:34.791-06:00  INFO 20316 --- [bancocuscatlan] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-23T14:35:34.791-06:00  INFO 20316 --- [bancocuscatlan] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-23T14:35:34.898-06:00  INFO 20316 --- [bancocuscatlan] [main] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring embedded WebApplicationContext
+2025-02-23T14:35:34.898-06:00  INFO 20316 --- [bancocuscatlan] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2984 ms
+2025-02-23T14:35:36.289-06:00  INFO 20316 --- [bancocuscatlan] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api-products'
+2025-02-23T14:35:36.309-06:00  INFO 20316 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : Started BancocuscatlanProductsApplication in 6.202 seconds (process running for 7.359)
+2025-02-23T14:35:41.743-06:00  INFO 20316 --- [bancocuscatlan] [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-23T14:35:41.743-06:00  INFO 20316 --- [bancocuscatlan] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-23T14:35:41.746-06:00  INFO 20316 --- [bancocuscatlan] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-23T14:35:41.839-06:00 DEBUG 20316 --- [bancocuscatlan] [http-nio-8080-exec-2] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] ---> GET https://fakestoreapi.com/products/20 HTTP/1.1
+2025-02-23T14:35:42.857-06:00 DEBUG 20316 --- [bancocuscatlan] [http-nio-8080-exec-2] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] <--- HTTP/1.1 200 OK (1016ms)
+2025-02-23T14:35:45.166-06:00 DEBUG 20316 --- [bancocuscatlan] [http-nio-8080-exec-3] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findAllProducts] ---> GET https://fakestoreapi.com/products HTTP/1.1
+2025-02-23T14:35:45.341-06:00 DEBUG 20316 --- [bancocuscatlan] [http-nio-8080-exec-3] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findAllProducts] <--- HTTP/1.1 200 OK (173ms)
+2025-02-23T14:54:23.074-06:00 DEBUG 20316 --- [bancocuscatlan] [http-nio-8080-exec-6] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findAllProducts] ---> GET https://fakestoreapi.com/products HTTP/1.1
+2025-02-23T14:54:23.414-06:00 DEBUG 20316 --- [bancocuscatlan] [http-nio-8080-exec-6] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findAllProducts] <--- HTTP/1.1 200 OK (339ms)
+2025-02-23T15:00:12.768-06:00  INFO 20316 --- [bancocuscatlan] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-23T15:00:12.784-06:00  INFO 20316 --- [bancocuscatlan] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-23T15:00:18.690-06:00  INFO 7060 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : Starting BancocuscatlanProductsApplication using Java 21.0.5 with PID 7060 (C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products\target\classes started by ADMIN in C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products)
+2025-02-23T15:00:18.707-06:00  INFO 7060 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-23T15:00:21.175-06:00  INFO 7060 --- [bancocuscatlan] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c9b40acb-9b82-3dfe-8940-e7578ac722bc
+2025-02-23T15:00:21.853-06:00  INFO 7060 --- [bancocuscatlan] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-23T15:00:21.873-06:00  INFO 7060 --- [bancocuscatlan] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-23T15:00:21.873-06:00  INFO 7060 --- [bancocuscatlan] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-23T15:00:21.991-06:00  INFO 7060 --- [bancocuscatlan] [main] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring embedded WebApplicationContext
+2025-02-23T15:00:21.992-06:00  INFO 7060 --- [bancocuscatlan] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2905 ms
+2025-02-23T15:00:23.250-06:00  INFO 7060 --- [bancocuscatlan] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api-products'
+2025-02-23T15:00:23.272-06:00  INFO 7060 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : Started BancocuscatlanProductsApplication in 5.904 seconds (process running for 7.135)
+2025-02-23T15:00:38.925-06:00  INFO 7060 --- [bancocuscatlan] [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-23T15:00:38.926-06:00  INFO 7060 --- [bancocuscatlan] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-23T15:00:38.931-06:00  INFO 7060 --- [bancocuscatlan] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-02-23T15:00:39.016-06:00 DEBUG 7060 --- [bancocuscatlan] [http-nio-8080-exec-2] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findAllProducts] ---> GET https://fakestoreapi.com/products HTTP/1.1
+2025-02-23T15:00:40.061-06:00 DEBUG 7060 --- [bancocuscatlan] [http-nio-8080-exec-2] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findAllProducts] <--- HTTP/1.1 200 OK (1043ms)
+2025-02-23T15:03:17.198-06:00  INFO 7060 --- [bancocuscatlan] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-23T15:03:17.212-06:00  INFO 7060 --- [bancocuscatlan] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-23T15:03:23.775-06:00  INFO 10292 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : Starting BancocuscatlanProductsApplication using Java 21.0.5 with PID 10292 (C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products\target\classes started by ADMIN in C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products)
+2025-02-23T15:03:23.808-06:00  INFO 10292 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-23T15:03:25.765-06:00  INFO 10292 --- [bancocuscatlan] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c9b40acb-9b82-3dfe-8940-e7578ac722bc
+2025-02-23T15:03:26.645-06:00  INFO 10292 --- [bancocuscatlan] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-23T15:03:26.670-06:00  INFO 10292 --- [bancocuscatlan] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-23T15:03:26.671-06:00  INFO 10292 --- [bancocuscatlan] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-23T15:03:26.775-06:00  INFO 10292 --- [bancocuscatlan] [main] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring embedded WebApplicationContext
+2025-02-23T15:03:26.775-06:00  INFO 10292 --- [bancocuscatlan] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2723 ms
+2025-02-23T15:03:28.053-06:00  INFO 10292 --- [bancocuscatlan] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api-products'
+2025-02-23T15:03:28.073-06:00  INFO 10292 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : Started BancocuscatlanProductsApplication in 5.674 seconds (process running for 6.847)
+2025-02-23T15:03:44.080-06:00  INFO 10292 --- [bancocuscatlan] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-23T15:03:44.081-06:00  INFO 10292 --- [bancocuscatlan] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-23T15:03:44.083-06:00  INFO 10292 --- [bancocuscatlan] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-23T15:04:18.358-06:00 DEBUG 10292 --- [bancocuscatlan] [http-nio-8080-exec-4] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] ---> GET https://fakestoreapi.com/products/1 HTTP/1.1
+2025-02-23T15:04:19.405-06:00 DEBUG 10292 --- [bancocuscatlan] [http-nio-8080-exec-4] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] <--- HTTP/1.1 200 OK (1046ms)
+2025-02-23T15:09:28.458-06:00  INFO 10292 --- [bancocuscatlan] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-23T15:09:28.474-06:00  INFO 10292 --- [bancocuscatlan] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-23T15:09:34.340-06:00  INFO 6500 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : Starting BancocuscatlanProductsApplication using Java 21.0.5 with PID 6500 (C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products\target\classes started by ADMIN in C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products)
+2025-02-23T15:09:34.386-06:00  INFO 6500 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-23T15:09:36.724-06:00  INFO 6500 --- [bancocuscatlan] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c9b40acb-9b82-3dfe-8940-e7578ac722bc
+2025-02-23T15:09:37.409-06:00  INFO 6500 --- [bancocuscatlan] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-23T15:09:37.429-06:00  INFO 6500 --- [bancocuscatlan] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-23T15:09:37.429-06:00  INFO 6500 --- [bancocuscatlan] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-23T15:09:37.544-06:00  INFO 6500 --- [bancocuscatlan] [main] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring embedded WebApplicationContext
+2025-02-23T15:09:37.545-06:00  INFO 6500 --- [bancocuscatlan] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2730 ms
+2025-02-23T15:09:38.821-06:00  INFO 6500 --- [bancocuscatlan] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api-products'
+2025-02-23T15:09:38.839-06:00  INFO 6500 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : Started BancocuscatlanProductsApplication in 5.715 seconds (process running for 6.839)
+2025-02-23T15:09:45.690-06:00  INFO 6500 --- [bancocuscatlan] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-23T15:09:45.690-06:00  INFO 6500 --- [bancocuscatlan] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-23T15:09:45.694-06:00  INFO 6500 --- [bancocuscatlan] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-02-23T15:09:45.785-06:00 DEBUG 6500 --- [bancocuscatlan] [http-nio-8080-exec-1] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] ---> GET https://fakestoreapi.com/products/1 HTTP/1.1
+2025-02-23T15:09:47.017-06:00 DEBUG 6500 --- [bancocuscatlan] [http-nio-8080-exec-1] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] <--- HTTP/1.1 200 OK (1231ms)
+2025-02-23T15:10:10.446-06:00  INFO 6500 --- [bancocuscatlan] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-23T15:10:10.457-06:00  INFO 6500 --- [bancocuscatlan] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-23T15:10:17.689-06:00  INFO 4792 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : Starting BancocuscatlanProductsApplication using Java 21.0.5 with PID 4792 (C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products\target\classes started by ADMIN in C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products)
+2025-02-23T15:10:17.704-06:00  INFO 4792 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-23T15:10:19.667-06:00  INFO 4792 --- [bancocuscatlan] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c9b40acb-9b82-3dfe-8940-e7578ac722bc
+2025-02-23T15:10:20.363-06:00  INFO 4792 --- [bancocuscatlan] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-23T15:10:20.399-06:00  INFO 4792 --- [bancocuscatlan] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-23T15:10:20.400-06:00  INFO 4792 --- [bancocuscatlan] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-23T15:10:20.486-06:00  INFO 4792 --- [bancocuscatlan] [main] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring embedded WebApplicationContext
+2025-02-23T15:10:20.486-06:00  INFO 4792 --- [bancocuscatlan] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2584 ms
+2025-02-23T15:10:21.753-06:00  INFO 4792 --- [bancocuscatlan] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api-products'
+2025-02-23T15:10:21.778-06:00  INFO 4792 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : Started BancocuscatlanProductsApplication in 5.853 seconds (process running for 7.129)
+2025-02-23T15:10:33.389-06:00  INFO 4792 --- [bancocuscatlan] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-23T15:10:33.390-06:00  INFO 4792 --- [bancocuscatlan] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-23T15:10:33.393-06:00  INFO 4792 --- [bancocuscatlan] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-23T15:12:33.069-06:00  INFO 4792 --- [bancocuscatlan] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-23T15:12:33.086-06:00  INFO 4792 --- [bancocuscatlan] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-23T15:12:39.891-06:00  INFO 3196 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : Starting BancocuscatlanProductsApplication using Java 21.0.5 with PID 3196 (C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products\target\classes started by ADMIN in C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products)
+2025-02-23T15:12:39.906-06:00  INFO 3196 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-23T15:12:42.028-06:00  INFO 3196 --- [bancocuscatlan] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c9b40acb-9b82-3dfe-8940-e7578ac722bc
+2025-02-23T15:12:42.787-06:00  INFO 3196 --- [bancocuscatlan] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-23T15:12:42.809-06:00  INFO 3196 --- [bancocuscatlan] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-23T15:12:42.810-06:00  INFO 3196 --- [bancocuscatlan] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-23T15:12:42.926-06:00  INFO 3196 --- [bancocuscatlan] [main] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring embedded WebApplicationContext
+2025-02-23T15:12:42.926-06:00  INFO 3196 --- [bancocuscatlan] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2831 ms
+2025-02-23T15:12:44.227-06:00  INFO 3196 --- [bancocuscatlan] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api-products'
+2025-02-23T15:12:44.251-06:00  INFO 3196 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : Started BancocuscatlanProductsApplication in 5.691 seconds (process running for 7.036)
+2025-02-23T15:12:56.588-06:00  INFO 3196 --- [bancocuscatlan] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-23T15:12:56.588-06:00  INFO 3196 --- [bancocuscatlan] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-23T15:12:56.591-06:00  INFO 3196 --- [bancocuscatlan] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-23T15:16:33.105-06:00  INFO 3196 --- [bancocuscatlan] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-23T15:16:33.121-06:00  INFO 3196 --- [bancocuscatlan] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-23T15:16:39.811-06:00  INFO 20860 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : Starting BancocuscatlanProductsApplication using Java 21.0.5 with PID 20860 (C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products\target\classes started by ADMIN in C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products)
+2025-02-23T15:16:39.825-06:00  INFO 20860 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-23T15:16:41.695-06:00  INFO 20860 --- [bancocuscatlan] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c9b40acb-9b82-3dfe-8940-e7578ac722bc
+2025-02-23T15:16:42.600-06:00  INFO 20860 --- [bancocuscatlan] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-23T15:16:42.636-06:00  INFO 20860 --- [bancocuscatlan] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-23T15:16:42.637-06:00  INFO 20860 --- [bancocuscatlan] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-23T15:16:42.720-06:00  INFO 20860 --- [bancocuscatlan] [main] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring embedded WebApplicationContext
+2025-02-23T15:16:42.721-06:00  INFO 20860 --- [bancocuscatlan] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2756 ms
+2025-02-23T15:16:43.951-06:00  INFO 20860 --- [bancocuscatlan] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api-products'
+2025-02-23T15:16:43.972-06:00  INFO 20860 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : Started BancocuscatlanProductsApplication in 5.509 seconds (process running for 6.656)
+2025-02-23T15:17:26.676-06:00  INFO 20860 --- [bancocuscatlan] [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-23T15:17:26.677-06:00  INFO 20860 --- [bancocuscatlan] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-23T15:17:26.679-06:00  INFO 20860 --- [bancocuscatlan] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-23T15:17:40.176-06:00 DEBUG 20860 --- [bancocuscatlan] [http-nio-8080-exec-6] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] ---> GET https://fakestoreapi.com/products/20 HTTP/1.1
+2025-02-23T15:17:41.095-06:00 DEBUG 20860 --- [bancocuscatlan] [http-nio-8080-exec-6] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] <--- HTTP/1.1 200 OK (918ms)
+2025-02-23T15:18:22.253-06:00 DEBUG 20860 --- [bancocuscatlan] [http-nio-8080-exec-7] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] ---> GET https://fakestoreapi.com/products/20 HTTP/1.1
+2025-02-23T15:18:22.538-06:00 DEBUG 20860 --- [bancocuscatlan] [http-nio-8080-exec-7] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] <--- HTTP/1.1 200 OK (285ms)
+2025-02-23T15:18:28.337-06:00 DEBUG 20860 --- [bancocuscatlan] [http-nio-8080-exec-8] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] ---> GET https://fakestoreapi.com/products/23 HTTP/1.1
+2025-02-23T15:18:28.754-06:00 DEBUG 20860 --- [bancocuscatlan] [http-nio-8080-exec-8] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] <--- HTTP/1.1 200 OK (416ms)
+2025-02-23T15:18:37.526-06:00 DEBUG 20860 --- [bancocuscatlan] [http-nio-8080-exec-9] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] ---> GET https://fakestoreapi.com/products/223 HTTP/1.1
+2025-02-23T15:18:37.822-06:00 DEBUG 20860 --- [bancocuscatlan] [http-nio-8080-exec-9] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] <--- HTTP/1.1 200 OK (293ms)
+2025-02-23T15:18:42.724-06:00 DEBUG 20860 --- [bancocuscatlan] [http-nio-8080-exec-10] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] ---> GET https://fakestoreapi.com/products/1 HTTP/1.1
+2025-02-23T15:18:42.914-06:00 DEBUG 20860 --- [bancocuscatlan] [http-nio-8080-exec-10] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] <--- HTTP/1.1 200 OK (189ms)
+2025-02-23T15:19:09.841-06:00 DEBUG 20860 --- [bancocuscatlan] [http-nio-8080-exec-1] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] ---> GET https://fakestoreapi.com/products/1 HTTP/1.1
+2025-02-23T15:19:10.116-06:00 DEBUG 20860 --- [bancocuscatlan] [http-nio-8080-exec-1] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] <--- HTTP/1.1 200 OK (274ms)
+2025-02-23T15:33:49.903-06:00  INFO 20860 --- [bancocuscatlan] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-23T15:33:49.920-06:00  INFO 20860 --- [bancocuscatlan] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-23T15:33:56.888-06:00  INFO 15936 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : Starting BancocuscatlanProductsApplication using Java 21.0.5 with PID 15936 (C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products\target\classes started by ADMIN in C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products)
+2025-02-23T15:33:56.912-06:00  INFO 15936 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-23T15:33:59.242-06:00  INFO 15936 --- [bancocuscatlan] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c9b40acb-9b82-3dfe-8940-e7578ac722bc
+2025-02-23T15:33:59.943-06:00  INFO 15936 --- [bancocuscatlan] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-23T15:33:59.976-06:00  INFO 15936 --- [bancocuscatlan] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-23T15:33:59.977-06:00  INFO 15936 --- [bancocuscatlan] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-23T15:34:00.057-06:00  INFO 15936 --- [bancocuscatlan] [main] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring embedded WebApplicationContext
+2025-02-23T15:34:00.058-06:00  INFO 15936 --- [bancocuscatlan] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2818 ms
+2025-02-23T15:34:01.363-06:00  INFO 15936 --- [bancocuscatlan] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api-products'
+2025-02-23T15:34:01.383-06:00  INFO 15936 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : Started BancocuscatlanProductsApplication in 5.782 seconds (process running for 7.149)
+2025-02-23T15:34:07.932-06:00  INFO 15936 --- [bancocuscatlan] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-23T15:34:07.933-06:00  INFO 15936 --- [bancocuscatlan] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-23T15:34:07.935-06:00  INFO 15936 --- [bancocuscatlan] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-23T15:34:27.551-06:00 DEBUG 15936 --- [bancocuscatlan] [http-nio-8080-exec-2] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] ---> GET https://fakestoreapi.com/products/1 HTTP/1.1
+2025-02-23T15:34:28.611-06:00 DEBUG 15936 --- [bancocuscatlan] [http-nio-8080-exec-2] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] <--- HTTP/1.1 200 OK (1058ms)
+2025-02-23T15:38:21.463-06:00 DEBUG 15936 --- [bancocuscatlan] [http-nio-8080-exec-9] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] ---> GET https://fakestoreapi.com/products/12 HTTP/1.1
+2025-02-23T15:38:22.067-06:00 DEBUG 15936 --- [bancocuscatlan] [http-nio-8080-exec-9] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] <--- HTTP/1.1 200 OK (603ms)
+2025-02-23T16:38:29.128-06:00  INFO 15936 --- [bancocuscatlan] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-23T16:38:29.143-06:00  INFO 15936 --- [bancocuscatlan] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-23T16:38:38.160-06:00  INFO 20468 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : Starting BancocuscatlanProductsApplication using Java 21.0.5 with PID 20468 (C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products\target\classes started by ADMIN in C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products)
+2025-02-23T16:38:38.175-06:00  INFO 20468 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-23T16:38:40.298-06:00  INFO 20468 --- [bancocuscatlan] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c9b40acb-9b82-3dfe-8940-e7578ac722bc
+2025-02-23T16:38:40.981-06:00  INFO 20468 --- [bancocuscatlan] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-23T16:38:41.018-06:00  INFO 20468 --- [bancocuscatlan] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-23T16:38:41.018-06:00  INFO 20468 --- [bancocuscatlan] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-23T16:38:41.189-06:00  INFO 20468 --- [bancocuscatlan] [main] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring embedded WebApplicationContext
+2025-02-23T16:38:41.191-06:00  INFO 20468 --- [bancocuscatlan] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2822 ms
+2025-02-23T16:38:42.486-06:00  INFO 20468 --- [bancocuscatlan] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api-products'
+2025-02-23T16:38:42.508-06:00  INFO 20468 --- [bancocuscatlan] [main] b.p.b.BancocuscatlanProductsApplication  : Started BancocuscatlanProductsApplication in 5.518 seconds (process running for 6.682)
+2025-02-23T16:39:28.580-06:00  INFO 20468 --- [bancocuscatlan] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-23T16:39:28.581-06:00  INFO 20468 --- [bancocuscatlan] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-23T16:39:28.584-06:00  INFO 20468 --- [bancocuscatlan] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-02-23T16:39:35.346-06:00 DEBUG 20468 --- [bancocuscatlan] [http-nio-8080-exec-5] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] ---> GET https://fakestoreapi.com/products/12 HTTP/1.1
+2025-02-23T16:39:36.663-06:00 DEBUG 20468 --- [bancocuscatlan] [http-nio-8080-exec-5] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] <--- HTTP/1.1 200 OK (1315ms)
+2025-02-23T16:39:39.319-06:00 DEBUG 20468 --- [bancocuscatlan] [http-nio-8080-exec-4] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] ---> GET https://fakestoreapi.com/products/12 HTTP/1.1
+2025-02-23T16:39:39.505-06:00 DEBUG 20468 --- [bancocuscatlan] [http-nio-8080-exec-4] b.p.b.a.externalApi.ProductsClient       : [ProductsClient#findByProductId] <--- HTTP/1.1 200 OK (185ms)
+2025-02-23T16:46:00.488-06:00  INFO 20468 --- [bancocuscatlan] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-23T16:46:00.503-06:00  INFO 20468 --- [bancocuscatlan] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-23T16:46:09.018-06:00  INFO 16720 --- [bancocuscatlan-api-products] [main] b.p.b.BancocuscatlanProductsApplication  : Starting BancocuscatlanProductsApplication using Java 21.0.5 with PID 16720 (C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products\target\classes started by ADMIN in C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products)
+2025-02-23T16:46:09.033-06:00  INFO 16720 --- [bancocuscatlan-api-products] [main] b.p.b.BancocuscatlanProductsApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-23T16:46:11.662-06:00  INFO 16720 --- [bancocuscatlan-api-products] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c9b40acb-9b82-3dfe-8940-e7578ac722bc
+2025-02-23T16:46:12.441-06:00  INFO 16720 --- [bancocuscatlan-api-products] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-23T16:46:12.487-06:00  INFO 16720 --- [bancocuscatlan-api-products] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-23T16:46:12.488-06:00  INFO 16720 --- [bancocuscatlan-api-products] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-23T16:46:12.594-06:00  INFO 16720 --- [bancocuscatlan-api-products] [main] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring embedded WebApplicationContext
+2025-02-23T16:46:12.594-06:00  INFO 16720 --- [bancocuscatlan-api-products] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3362 ms
+2025-02-23T16:46:14.163-06:00  INFO 16720 --- [bancocuscatlan-api-products] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api-products'
+2025-02-23T16:46:14.183-06:00  INFO 16720 --- [bancocuscatlan-api-products] [main] b.p.b.BancocuscatlanProductsApplication  : Started BancocuscatlanProductsApplication in 6.622 seconds (process running for 11.31)
+2025-02-23T16:55:14.258-06:00  INFO 16720 --- [bancocuscatlan-api-products] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-23T16:55:14.275-06:00  INFO 16720 --- [bancocuscatlan-api-products] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-23T16:55:18.744-06:00  INFO 22704 --- [bancocuscatlan-api-products] [main] b.p.b.BancocuscatlanProductsApplication  : Starting BancocuscatlanProductsApplication using Java 21.0.5 with PID 22704 (C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products\target\classes started by ADMIN in C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products)
+2025-02-23T16:55:18.786-06:00  INFO 22704 --- [bancocuscatlan-api-products] [main] b.p.b.BancocuscatlanProductsApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-23T16:55:21.044-06:00  INFO 22704 --- [bancocuscatlan-api-products] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c9b40acb-9b82-3dfe-8940-e7578ac722bc
+2025-02-23T16:55:21.919-06:00  INFO 22704 --- [bancocuscatlan-api-products] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-23T16:55:21.949-06:00  INFO 22704 --- [bancocuscatlan-api-products] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-23T16:55:21.950-06:00  INFO 22704 --- [bancocuscatlan-api-products] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-23T16:55:22.056-06:00  INFO 22704 --- [bancocuscatlan-api-products] [main] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring embedded WebApplicationContext
+2025-02-23T16:55:22.056-06:00  INFO 22704 --- [bancocuscatlan-api-products] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3035 ms
+2025-02-23T16:55:23.391-06:00  INFO 22704 --- [bancocuscatlan-api-products] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api-products'
+2025-02-23T16:55:23.410-06:00  INFO 22704 --- [bancocuscatlan-api-products] [main] b.p.b.BancocuscatlanProductsApplication  : Started BancocuscatlanProductsApplication in 6.151 seconds (process running for 7.481)
+2025-02-23T16:55:29.746-06:00  INFO 22704 --- [bancocuscatlan-api-products] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-23T16:55:29.760-06:00  INFO 22704 --- [bancocuscatlan-api-products] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-23T16:55:34.776-06:00  INFO 20420 --- [bancocuscatlan-api-products] [main] b.p.b.BancocuscatlanProductsApplication  : Starting BancocuscatlanProductsApplication using Java 21.0.5 with PID 20420 (C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products\target\classes started by ADMIN in C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products)
+2025-02-23T16:55:34.801-06:00  INFO 20420 --- [bancocuscatlan-api-products] [main] b.p.b.BancocuscatlanProductsApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-23T16:55:36.965-06:00  INFO 20420 --- [bancocuscatlan-api-products] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c9b40acb-9b82-3dfe-8940-e7578ac722bc
+2025-02-23T16:55:37.902-06:00  INFO 20420 --- [bancocuscatlan-api-products] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-23T16:55:37.925-06:00  INFO 20420 --- [bancocuscatlan-api-products] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-23T16:55:37.925-06:00  INFO 20420 --- [bancocuscatlan-api-products] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-23T16:55:38.045-06:00  INFO 20420 --- [bancocuscatlan-api-products] [main] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring embedded WebApplicationContext
+2025-02-23T16:55:38.046-06:00  INFO 20420 --- [bancocuscatlan-api-products] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3049 ms
+2025-02-23T16:55:39.304-06:00  INFO 20420 --- [bancocuscatlan-api-products] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api-products'
+2025-02-23T16:55:39.330-06:00  INFO 20420 --- [bancocuscatlan-api-products] [main] b.p.b.BancocuscatlanProductsApplication  : Started BancocuscatlanProductsApplication in 6.02 seconds (process running for 7.383)
+2025-02-23T16:56:02.770-06:00  INFO 20420 --- [bancocuscatlan-api-products] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-23T16:56:02.784-06:00  INFO 20420 --- [bancocuscatlan-api-products] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-23T16:56:07.479-06:00  INFO 6864 --- [bancocuscatlan-api-products] [main] b.p.b.BancocuscatlanProductsApplication  : Starting BancocuscatlanProductsApplication using Java 21.0.5 with PID 6864 (C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products\target\classes started by ADMIN in C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products)
+2025-02-23T16:56:07.496-06:00  INFO 6864 --- [bancocuscatlan-api-products] [main] b.p.b.BancocuscatlanProductsApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-23T16:56:09.370-06:00  INFO 6864 --- [bancocuscatlan-api-products] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c9b40acb-9b82-3dfe-8940-e7578ac722bc
+2025-02-23T16:56:10.067-06:00  INFO 6864 --- [bancocuscatlan-api-products] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-23T16:56:10.101-06:00  INFO 6864 --- [bancocuscatlan-api-products] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-23T16:56:10.102-06:00  INFO 6864 --- [bancocuscatlan-api-products] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-23T16:56:10.190-06:00  INFO 6864 --- [bancocuscatlan-api-products] [main] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring embedded WebApplicationContext
+2025-02-23T16:56:10.190-06:00  INFO 6864 --- [bancocuscatlan-api-products] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2519 ms
+2025-02-23T16:56:11.428-06:00  INFO 6864 --- [bancocuscatlan-api-products] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api-products'
+2025-02-23T16:56:11.449-06:00  INFO 6864 --- [bancocuscatlan-api-products] [main] b.p.b.BancocuscatlanProductsApplication  : Started BancocuscatlanProductsApplication in 5.414 seconds (process running for 6.519)
+2025-02-23T16:56:57.614-06:00  INFO 6864 --- [bancocuscatlan-api-products] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-23T16:56:57.633-06:00  INFO 6864 --- [bancocuscatlan-api-products] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-23T16:57:01.847-06:00  INFO 9188 --- [bancocuscatlan-api-products] [main] b.p.b.BancocuscatlanProductsApplication  : Starting BancocuscatlanProductsApplication using Java 21.0.5 with PID 9188 (C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products\target\classes started by ADMIN in C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-products)
+2025-02-23T16:57:01.870-06:00  INFO 9188 --- [bancocuscatlan-api-products] [main] b.p.b.BancocuscatlanProductsApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-23T16:57:04.343-06:00  INFO 9188 --- [bancocuscatlan-api-products] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c9b40acb-9b82-3dfe-8940-e7578ac722bc
+2025-02-23T16:57:05.048-06:00  INFO 9188 --- [bancocuscatlan-api-products] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-23T16:57:05.068-06:00  INFO 9188 --- [bancocuscatlan-api-products] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-23T16:57:05.069-06:00  INFO 9188 --- [bancocuscatlan-api-products] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-23T16:57:05.200-06:00  INFO 9188 --- [bancocuscatlan-api-products] [main] o.a.c.c.C.[.[localhost].[/api-products]  : Initializing Spring embedded WebApplicationContext
+2025-02-23T16:57:05.201-06:00  INFO 9188 --- [bancocuscatlan-api-products] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2993 ms
+2025-02-23T16:57:06.411-06:00  INFO 9188 --- [bancocuscatlan-api-products] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api-products'
+2025-02-23T16:57:06.431-06:00  INFO 9188 --- [bancocuscatlan-api-products] [main] b.p.b.BancocuscatlanProductsApplication  : Started BancocuscatlanProductsApplication in 5.858 seconds (process running for 7.02)
+2025-02-23T16:57:57.982-06:00  INFO 9188 --- [bancocuscatlan-api-products] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-23T16:57:57.991-06:00  INFO 9188 --- [bancocuscatlan-api-products] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
