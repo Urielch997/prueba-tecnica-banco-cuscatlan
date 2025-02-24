@@ -6552,3 +6552,57 @@ org.hibernate.InstantiationException: No default constructor for entity 'bancocu
 2025-02-23T23:30:20.445-06:00  INFO 7228 --- [bancocuscatlan-api-core] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-02-23T23:30:20.454-06:00  INFO 7228 --- [bancocuscatlan-api-core] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-02-23T23:30:20.459-06:00  INFO 7228 --- [bancocuscatlan-api-core] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-23T23:30:27.158-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] b.c.b.BancocuscatlanApplication          : Starting BancocuscatlanApplication using Java 21.0.5 with PID 21652 (C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-core\target\classes started by ADMIN in C:\Users\ADMIN\Documents\Prueba tecnica Banco Cuscatlan\bancocuscatlan-api-core)
+2025-02-23T23:30:27.178-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] b.c.b.BancocuscatlanApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-02-23T23:30:29.053-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-23T23:30:29.255-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 169 ms. Found 3 JPA repository interfaces.
+2025-02-23T23:30:29.748-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4292daf6-f507-3986-8ae0-e0a2ecfbe4a0
+2025-02-23T23:30:30.679-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-02-23T23:30:30.705-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-23T23:30:30.706-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-02-23T23:30:30.798-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] o.a.c.c.C.[.[localhost].[/api-core]      : Initializing Spring embedded WebApplicationContext
+2025-02-23T23:30:30.798-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3455 ms
+2025-02-23T23:30:31.185-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-23T23:30:31.325-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-02-23T23:30:31.422-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-23T23:30:31.949-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-23T23:30:32.009-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-23T23:30:32.346-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:banco_cuscatlan user=SA
+2025-02-23T23:30:32.351-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-23T23:30:32.409-06:00  WARN 21652 --- [bancocuscatlan-api-core] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-23T23:30:32.458-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-23T23:30:33.539-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: bancocuscatlan.core.bancocuscatlan.adapter.persistence.orderDetail.OrderDetailEntity (class must be instantiated by Interceptor)
+2025-02-23T23:30:33.927-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-23T23:30:33.990-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-23T23:30:34.241-06:00  WARN 21652 --- [bancocuscatlan-api-core] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-23T23:30:35.682-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:banco_cuscatlan'
+2025-02-23T23:30:35.945-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/api-core'
+2025-02-23T23:30:35.967-06:00  INFO 21652 --- [bancocuscatlan-api-core] [main] b.c.b.BancocuscatlanApplication          : Started BancocuscatlanApplication in 10.064 seconds (process running for 11.222)
+2025-02-23T23:30:38.366-06:00  INFO 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-2] o.a.c.c.C.[.[localhost].[/api-core]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-23T23:30:38.367-06:00  INFO 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-23T23:30:38.371-06:00  INFO 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-02-23T23:30:42.099-06:00 DEBUG 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-4] b.c.b.adapter.externalApi.ProductsFeign  : [ProductsFeign#findProductsById] ---> GET http://localhost:8080/api-products/products/1 HTTP/1.1
+2025-02-23T23:30:42.394-06:00 DEBUG 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-4] b.c.b.adapter.externalApi.ProductsFeign  : [ProductsFeign#findProductsById] <--- HTTP/1.1 200 (292ms)
+2025-02-23T23:30:42.443-06:00 DEBUG 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-4] b.c.b.adapter.externalApi.ProductsFeign  : [ProductsFeign#findProductsById] ---> GET http://localhost:8080/api-products/products/2 HTTP/1.1
+2025-02-23T23:30:42.629-06:00 DEBUG 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-4] b.c.b.adapter.externalApi.ProductsFeign  : [ProductsFeign#findProductsById] <--- HTTP/1.1 200 (184ms)
+2025-02-23T23:30:42.631-06:00 DEBUG 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-4] b.c.b.adapter.externalApi.ProductsFeign  : [ProductsFeign#findProductsById] ---> GET http://localhost:8080/api-products/products/4 HTTP/1.1
+2025-02-23T23:30:42.818-06:00 DEBUG 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-4] b.c.b.adapter.externalApi.ProductsFeign  : [ProductsFeign#findProductsById] <--- HTTP/1.1 200 (186ms)
+2025-02-23T23:30:43.821-06:00 DEBUG 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-5] b.c.b.adapter.externalApi.ProductsFeign  : [ProductsFeign#findProductsById] ---> GET http://localhost:8080/api-products/products/1 HTTP/1.1
+2025-02-23T23:30:44.010-06:00 DEBUG 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-5] b.c.b.adapter.externalApi.ProductsFeign  : [ProductsFeign#findProductsById] <--- HTTP/1.1 200 (188ms)
+2025-02-23T23:30:44.012-06:00 DEBUG 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-5] b.c.b.adapter.externalApi.ProductsFeign  : [ProductsFeign#findProductsById] ---> GET http://localhost:8080/api-products/products/2 HTTP/1.1
+2025-02-23T23:30:44.200-06:00 DEBUG 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-5] b.c.b.adapter.externalApi.ProductsFeign  : [ProductsFeign#findProductsById] <--- HTTP/1.1 200 (187ms)
+2025-02-23T23:30:44.202-06:00 DEBUG 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-5] b.c.b.adapter.externalApi.ProductsFeign  : [ProductsFeign#findProductsById] ---> GET http://localhost:8080/api-products/products/4 HTTP/1.1
+2025-02-23T23:30:44.392-06:00 DEBUG 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-5] b.c.b.adapter.externalApi.ProductsFeign  : [ProductsFeign#findProductsById] <--- HTTP/1.1 200 (190ms)
+2025-02-23T23:30:45.259-06:00 DEBUG 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-6] b.c.b.adapter.externalApi.ProductsFeign  : [ProductsFeign#findProductsById] ---> GET http://localhost:8080/api-products/products/1 HTTP/1.1
+2025-02-23T23:30:45.448-06:00 DEBUG 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-6] b.c.b.adapter.externalApi.ProductsFeign  : [ProductsFeign#findProductsById] <--- HTTP/1.1 200 (188ms)
+2025-02-23T23:30:45.451-06:00 DEBUG 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-6] b.c.b.adapter.externalApi.ProductsFeign  : [ProductsFeign#findProductsById] ---> GET http://localhost:8080/api-products/products/2 HTTP/1.1
+2025-02-23T23:30:45.666-06:00 DEBUG 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-6] b.c.b.adapter.externalApi.ProductsFeign  : [ProductsFeign#findProductsById] <--- HTTP/1.1 200 (214ms)
+2025-02-23T23:30:45.669-06:00 DEBUG 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-6] b.c.b.adapter.externalApi.ProductsFeign  : [ProductsFeign#findProductsById] ---> GET http://localhost:8080/api-products/products/4 HTTP/1.1
+2025-02-23T23:30:45.856-06:00 DEBUG 21652 --- [bancocuscatlan-api-core] [http-nio-8081-exec-6] b.c.b.adapter.externalApi.ProductsFeign  : [ProductsFeign#findProductsById] <--- HTTP/1.1 200 (186ms)

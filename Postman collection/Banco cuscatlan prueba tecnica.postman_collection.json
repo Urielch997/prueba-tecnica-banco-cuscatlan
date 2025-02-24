@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "8038bbaf-14d2-4fc9-9cbd-1af5e2f7dd16",
+		"name": "Banco cuscatlan prueba tecnica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13997000"
+	},
+	"item": [
+		{
+			"name": "Product List",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api-products}}/api-products/products",
+					"host": [
+						"{{api-products}}"
+					],
+					"path": [
+						"api-products",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product by id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{api-products}}/api-products/products/12",
+					"host": [
+						"{{api-products}}"
+					],
+					"path": [
+						"api-products",
+						"products",
+						"12"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Order",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idClient\":1,\r\n    \"detailOrder\":[\r\n        {\r\n            \"idProducto\":1,\r\n            \"cantidad\":2\r\n        },\r\n        {\r\n            \"idProducto\":2,\r\n            \"cantidad\":2\r\n        },\r\n         {\r\n            \"idProducto\":4,\r\n            \"cantidad\":5\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{api-core}}/api-core/order",
+					"host": [
+						"{{api-core}}"
+					],
+					"path": [
+						"api-core",
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pay Order",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cardNumber\":\"1271371371\",\r\n    \"idOrder\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{api-core}}/api-core/payment",
+					"host": [
+						"{{api-core}}"
+					],
+					"path": [
+						"api-core",
+						"payment"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
